@@ -8,7 +8,9 @@
 
 ## Introduction
 
-This crate provides an API to access `stellar.toml` files as defined is SEP-0001.
+This crate provides an API to access `stellar.toml` files as defined
+in
+[SEP-0001](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0001.md).
 
 ## Need help? Have feeback?
 
