@@ -1,0 +1,24 @@
+[package]
+name = "stellar-toml"
+version = "0.1.0"
+authors = ["Francesco Ceccon <francesco@ceccon.me>"]
+edition = "2018"
+description = "Library to retrieve and parse stellar.toml files."
+license = "Apache-2.0"
+documentation = "https://docs.rs/stellar-toml"
+repository = "https://github.com/aurora-rs/stellar-toml-rs"
+readme = "README.md"
+keywords = ["stellar", "blockchain"]
+
+[dependencies]
+stellar-base = "0.4.0"
+hyper = "0.13.6"
+hyper-tls = "0.4.1"
+http = "0.2.1"
+serde = "1.0.114"
+serde_derive = "1.0.114"
+thiserror = "1.0.20"
+toml = "0.5.6"
+
+[dev-dependencies]
+tokio = { version = "0.2.21", features = ["full"] }
