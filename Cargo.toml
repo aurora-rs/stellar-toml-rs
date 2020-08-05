@@ -11,12 +11,13 @@ readme = "README.md"
 keywords = ["stellar", "blockchain"]
 
 [dependencies]
-stellar-base = "0.4.0"
+stellar-base = "0.4.1"
 hyper = "0.13.6"
 hyper-tls = "0.4.1"
 http = "0.2.1"
 serde = "1.0.114"
 serde_derive = "1.0.114"
+serde_with = { version = "1.5.0-alpha.1", features = ["default"] }
 thiserror = "1.0.20"
 toml = "0.5.6"
 
